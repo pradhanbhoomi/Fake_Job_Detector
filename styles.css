@@ -1,0 +1,107 @@
+/* 
+   GLOBAL BACKGROUND*/
+.stApp {
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+/* 
+   HEADINGS
+ */
+h1 {
+    color: #38bdf8;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+h2, h3 {
+    color: #a5b4fc;
+}
+
+/* 
+   GLASSMORPHISM CARDS */
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.glass-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(56, 189, 248, 0.2);
+}
+
+/* 
+   BUTTON (ANIMATED) */
+.stButton>button {
+    background: linear-gradient(90deg, #6366f1, #22c55e);
+    color: white;
+    border-radius: 12px;
+    height: 3em;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+/* Hover animation */
+.stButton>button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #22c55e, #6366f1);
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
+}
+
+/* Click effect */
+.stButton>button:active {
+    transform: scale(0.98);
+}
+
+/* 
+   TEXT AREA*/
+textarea {
+    background-color: rgba(30, 41, 59, 0.8) !important;
+    color: white !important;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* 
+   METRIC CARDS */
+[data-testid="stMetric"] {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: 0.3s;
+}
+
+/* Hover effect */
+[data-testid="stMetric"]:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+}
+
+/* 
+   RESULT BOXES
+ */
+.success-box {
+    background: rgba(34,197,94,0.15);
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #22c55e;
+}
+
+.error-box {
+    background: rgba(239,68,68,0.15);
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #ef4444;
+}
