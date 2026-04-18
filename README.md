@@ -3,7 +3,7 @@
 
 An AI-powered system to detect fraudulent job postings using Natural Language Processing and Machine Learning.
 
-🔗 **Live App:** (add your Streamlit link here)  
+🔗 **Live App:**   
 📂 **Dataset Size:** 28,000+ job listings  
 
 
@@ -89,7 +89,7 @@ fake-job-detector/
 
 ### 1. Clone the repository
 
-git clone https://github.com/your-username/fake-job-detector.git
+git clone (https://github.com/pradhanbhoomi/Fake_Job_Detector)
 
 cd fake-job-detector
 
