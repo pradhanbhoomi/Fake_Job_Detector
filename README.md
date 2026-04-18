@@ -3,7 +3,9 @@
 
 An AI-powered system to detect fraudulent job postings using Natural Language Processing and Machine Learning.
 
-🔗 **Live App:**   
+🔗 **Live App:**  
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.2:8501 
 📂 **Dataset Size:** 28,000+ job listings  
 
 
